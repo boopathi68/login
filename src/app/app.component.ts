@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormControl, Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'form';
+  hide:boolean=true;
+
+
+  email =new FormControl('',[Validators.required,Validators.email]);
+  getErrorMessage(){
+    if(this.email.hasError('required')){
+      return 'enter a mail';
+    }
+    return this.email.hasError('email')?'not a valid mail' : '';
+  }
 }
+
+

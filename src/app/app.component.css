@@ -1,0 +1,82 @@
+.border{
+    background-color:blue;
+    max-width:400px;
+    max-height:550px;
+    width:100%;
+    position: absolute;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right:0;
+    left:0;
+    top:0;
+    bottom:0;
+}
+
+.form{
+    background-color: rgb(253, 251, 248);
+    width:320px;
+    height:500px;
+    margin-top:10px;
+    margin-bottom: 60px;
+    margin-right:25px;
+}
+
+.title{
+    font-size: 50px ;
+    font-family:sans-serif;
+    color:blue;
+    padding:20px;
+    text-align: center;
+   font-weight: 300;
+}
+
+.sub{
+    font-size: 50px;
+    font-family:Serif ;
+    text-align: center;
+}
+
+.form{
+    position: relative;
+    top:30px;
+    right:-10px
+    
+}
+
+email{
+    top:10px;
+}
+
+input{
+    width:80%;
+}
+.content{
+    text-align:center;
+    margin-top: 40px;
+}
+
+
+input{
+    width: 80%!important;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+#pass{
+    text-align: right;
+    padding:10px;
+    font-size: 13px;
+}
+
+button{
+    width:280px;
+    background-color: blue;
+}
